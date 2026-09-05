@@ -1,0 +1,1 @@
+Synthetic privacy-safe PayGuard AI datasets. Files: transactions_master.csv, train.csv, validation.csv, test_heldout.csv, merchants.csv, settlements.csv, refunds.csv, chargebacks.csv. groundTruthRisk and fraudScenario are for evaluation only. No real Razorpay data. Generated with seed 42.

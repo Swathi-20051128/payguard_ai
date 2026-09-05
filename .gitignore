@@ -1,0 +1,40 @@
+# envs
+.env
+.env.local
+
+# node
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# ml artifacts
+ml-service/models/*.joblib
+ml-service/models/*.pkl
+ml-service/models/*.json
+!ml-service/models/.gitkeep
+
+# data (large synthetic datasets kept out of git, see /data/README.md)
+data/*.csv
+data/*.zip
+!data/README.md
+
+# os
+.DS_Store
+Thumbs.db
+
+# uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ide
+.vscode/
+.idea/
